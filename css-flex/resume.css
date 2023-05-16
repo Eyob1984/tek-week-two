@@ -23,8 +23,14 @@ body {
   border: 1px rgb(242, 7, 7)solid;
   margin-left: auto;
 }
+.contact ul li {
+  font-weight: bold;
+
+}
+
 .intro {
   margin-right: 5px;
+  margin-left: 5px;
   border: 1px rgb(242, 7, 7) solid;
 }
 img {
@@ -44,6 +50,29 @@ h4 span{
   border: 1px rgb(242, 7, 7)solid;
   margin-left: 5px;
 }
+.emp-edu {
+  background-color: #999696;
+}
+
+.emp-edu #emp-box {
+  display: inline-block;
+  border: 1px  rgb(16, 247, 39)solid;
+  background-color: rgb(16, 247, 39);
+  height: 17px;
+  width: 15px;
+  border-radius: 3px;
+}
+.emp-edu #edu-box {
+  display: inline-block;
+  border: 1px  rgb(25, 176, 240)solid;
+  background-color:rgb(25, 176, 240);
+  height: 17px;
+  width: 15px;
+  border-radius: 3px;
+}
+.year {
+  margin-left: auto;
+}
 .skills {
   margin-right: 5px;
   width: 200px;
@@ -60,13 +89,58 @@ ul li {
 
 }
 
-#box1, #box2{
-  border: 1px rgb(242, 7, 7)solid;
-  margin-left: 10px;
-  margin-right: 20px;
+#box1{
+ 
+  margin-top: -15px;
+  margin-left: 2px;
+  margin-right: 45px;
   height: 15px;
   background-color: rgb(80, 80, 235);
 }
+#box2{
+  margin-top: -15px;
+  margin-left: 2px;
+  margin-right: 60px;
+  height: 15px;
+  background-color: rgb(80, 80, 235);
+}
+
+#box3 {
+ 
+  margin-top: -15px;
+  margin-left: 2px;
+  margin-right: 35px;
+  height: 15px;
+  background-color: rgb(8, 246, 12);
+}
+#box4 {
+  
+  margin-top: -15px;
+  margin-left: 2px;
+  margin-right: 60px;
+  height: 15px;
+  background-color: rgb(250, 230, 4);
+}
+#box5 {
+ 
+  margin-top: -15px;
+  margin-left: 2px;
+  margin-right: 75px;
+  height: 15px;
+  background-color: rgb(250, 98, 4);
+}
+.per {
+  float: right;
+}
+
+
+/* #box1-1 {
+  float: right;
+  margin-left: 10px;
+  margin-right: 45px;
+  height: 15px;
+  background-color: rgb(81, 81, 84);
+} */
 #ado-pho, #ado-ill {
   display: inline-block;
   border: 1px rgb(25, 176, 240)solid;
@@ -76,7 +150,7 @@ ul li {
   margin-right: 3px;
 }
 
-#ado-ind {
+.ado-ind {
   display: inline-block;
   border: 1px  rgb(16, 247, 39)solid;
   background-color: rgb(16, 247, 39);
