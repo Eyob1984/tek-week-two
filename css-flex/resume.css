@@ -1,3 +1,13 @@
+
+@media screen and (max-width: 480px){
+  body {
+    background-color: green;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 body {
   background-color: black;
   color: white;
@@ -94,10 +104,11 @@ text-align: center;
   margin-left: auto;
 }
 
-p {
+p, .info{
   font-size: small;
   color: #808080;
 }
+
 
 .position {
   margin-top: -25px;
@@ -125,6 +136,7 @@ ul li {
   margin-left: 2px;
   margin-right: 45px;
   height: 15px;
+  color: #ffff;
   background-color: rgb(80, 80, 235);
 }
 #box2{
@@ -132,6 +144,7 @@ ul li {
   margin-left: 2px;
   margin-right: 60px;
   height: 15px;
+  color: #ffff;
   background-color: rgb(80, 80, 235);
 }
 
@@ -141,6 +154,7 @@ ul li {
   margin-left: 2px;
   margin-right: 35px;
   height: 15px;
+  color: #ffff;
   background-color: rgb(8, 246, 12);
 }
 #box4 {
@@ -149,6 +163,7 @@ ul li {
   margin-left: 2px;
   margin-right: 60px;
   height: 15px;
+  color: #ffff;
   background-color: rgb(250, 230, 4);
 }
 #box5 {
@@ -157,10 +172,12 @@ ul li {
   margin-left: 2px;
   margin-right: 75px;
   height: 15px;
+  color: #ffff;
   background-color: rgb(250, 98, 4);
 }
 .per {
   float: right;
+  
 }
 
 
